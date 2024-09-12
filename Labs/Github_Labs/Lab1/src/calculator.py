@@ -9,6 +9,7 @@ def fun1(x, y):
         Raises:
         ValueError: If x or y is not a number.
     """
+    # what a beauty calculator
     if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
         raise ValueError("Both inputs must be numbers.")
     
